@@ -1,43 +1,520 @@
-# Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# Sera - OnePage Jekyll Template
+# Configuration File
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
+include:
+  - _pages
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# This is your site title
+title: St. Monica Naturescape
+# Website language
+lang: en-US
+# Header Title
+header-title: Help us build the St. Monica Naturescape.
+# Header Tagline
+headter-tagline: Hearts to love, Hands to serve.
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Sponsor
+  url: /sponsorships
+
+# Secondary Buttons
+header-secondary-button:
+  title: Donate
+  url: /donations
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: stmonicanaturescape@gmail.com
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: http://stmonicanaturescape.com
+
+####################################
+######  Global Social Links   ######
+####################################
+youtube: '#'
+pinterest: '#'
+facebook: '#'
+twitter: '#'
+google-plus: '#'
+vimeo: '#'
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: avatar-02.jpg
+  author-name: John Doe
+  author-tagline: Blog Author
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec.
+  author-social-links:
+    youtube: '#'
+    pinterest: '#'
+    facebook: '#'
+    twitter: '#'
+    google-plus: '#'
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+about-title: St. Monica Naturescape
+about-description: >
+  - Double tree mash with rope climbers
+  - Vertical pass through tunnel with anchored natural timbers
+  - Loose parts area with wacky posts for open ended play
+  - Double hill slide on lady bug hill
+  - Living tipi/vegetated hut
+  - Sand play with a log water chute, log tunnel and stump table
+  - Music area with hanging amadinda, chime fence and whale drum
+  - Creative and artistic area with wall mounted artistic panels, activity tables
+  - Gardening and Gathering space
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: Features
+features-description: >
+  The staff at St. Monica believes passionately that learning should be an adventure.  They use the
+  Reggio Emilia approach to early childhood education, which encourages young children and their teachers
+  to explore, question, and discover in a stimulating environment. Birds nesting in the trees, ladybugs in
+  the plants, and leaves overhead allow for endless teaching opportunities in this outdoor classroom.
+
+#
+# Features
+#
+features:
+
+# Feature
+- title: Connection to Nature
+  description: >
+    The play space will be full of plants that are native to the area. All trees, shrubs and fallen logs are designed to bring nature in and provide children a natural space to play and learn. In these types of playgrounds children gain respect for their environment and understand their place in it.
+  icon: pe-7s-leaf
+
+# Feature
+- title: Suggestive Design
+  description: >
+    Natural environments have advantages over purpose built playground because they stimulate more diverse and creative play. Children are encouraged to explore and create without limitations placed upon them by the designer.
+  icon: pe-7s-light
+
+# Feature
+- title: Accessibility
+  description: >
+    This space has been designed to accommodate wheelchairs and walkers and for every child regardless of physical,  cognitive or mental ability.
+  icon: pe-7s-way
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Design Concept
+portfolio-description: >
+  The Naturescape has been carefully designed to ensure that there are many opportunities for the children to explore
+  and create. Gross motor skills will be strengthened using natural elements such as the double tree mash with rope
+  climbers, boulders, horizontal log and stump borders and varying topography. Gardening, music, sensory bins and
+  varying textures are all incorporated to develop fine motor skills that are valuable to child development.
+  This space will encourage children to touch, feel, and collect creating sensory experiences they won't forget.
+#
+# Portfolio Grid
+#
+portfolio-categories: [Aerial, Artistic, Climbing, Garden, Loose Parts, Mural, Music, Sand, Slide, Tipi, Tunnel, Winter]
+portfolio:
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Aerial]
+  image: 17SC014-stmonica-render01.jpg
+  url: '/images/portfolio/17SC014-stmonica-render01.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Aerial]
+  image: 17SC014-stmonica-render02.jpg
+  url: '/images/portfolio/17SC014-stmonica-render02.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Aerial]
+  image: 17SC014-stmonica-render03.jpg
+  url: '/images/portfolio/17SC014-stmonica-render03.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Garden & Gathering, Garden]
+  image: 17SC014-stmonica-render04.jpg
+  url: '/images/portfolio/17SC014-stmonica-render04.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Creative & Artistic, Artistic]
+  image: 17SC014-stmonica-render05.jpg
+  url: '/images/portfolio/17SC014-stmonica-render05.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Garden & Gathering, Garden]
+  image: 17SC014-stmonica-render06.jpg
+  url: '/images/portfolio/17SC014-stmonica-render06.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Loose Parts]
+  image: 17SC014-stmonica-render07.jpg
+  url: '/images/portfolio/17SC014-stmonica-render07.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Creative & Artistic, Artistic]
+  image: 17SC014-stmonica-render08.jpg
+  url: '/images/portfolio/17SC014-stmonica-render08.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Music Area, Music]
+  image: 17SC014-stmonica-render09.jpg
+  url: '/images/portfolio/17SC014-stmonica-render09.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Music Area, Music]
+  image: 17SC014-stmonica-render10.jpg
+  url: '/images/portfolio/17SC014-stmonica-render10.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Climbing]
+  image: 17SC014-stmonica-render11.jpg
+  url: '/images/portfolio/17SC014-stmonica-render11.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Hill Slide, Slide]
+  image: 17SC014-stmonica-render12.jpg
+  url: '/images/portfolio/17SC014-stmonica-render12.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Veritcal Pass Through Tunnel, Tunnel]
+  image: 17SC014-stmonica-render13.jpg
+  url: '/images/portfolio/17SC014-stmonica-render13.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Veritcal Pass Through Tunnel, Tunnel]
+  image: 17SC014-stmonica-render14.jpg
+  url: '/images/portfolio/17SC014-stmonica-render14.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Pole Bean Tipi, Tipi]
+  image: 17SC014-stmonica-render15.jpg
+  url: '/images/portfolio/17SC014-stmonica-render15.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Sand Play, Sand]
+  image: 17SC014-stmonica-render16.jpg
+  url: '/images/portfolio/17SC014-stmonica-render16.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Sand Play, Sand]
+  image: 17SC014-stmonica-render17.jpg
+  url: '/images/portfolio/17SC014-stmonica-render17.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Open Lawn, Lawn]
+  image: 17SC014-stmonica-render18.jpg
+  url: '/images/portfolio/17SC014-stmonica-render18.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Winter, Concept]
+  image: 17SC014-stmonica-render19.jpg
+  url: '/images/portfolio/17SC014-stmonica-render19.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Winter, Concept]
+  image: 17SC014-stmonica-render20.jpg
+  url: '/images/portfolio/17SC014-stmonica-render20.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Open Lawn, Lawn]
+  image: 17SC014-stmonica-render21.jpg
+  url: '/images/portfolio/17SC014-stmonica-render21.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Open Lawn, Lawn]
+  image: 17SC014-stmonica-render22.jpg
+  url: '/images/portfolio/17SC014-stmonica-render22.jpg'
+
+# Portfolio Item
+- title: St. <span class="thin">Monica</span> Naturescape
+  categories: [Creation Mural, Mural, Artistic]
+  image: 17SC014-stmonica-render23.jpg
+  url: '/images/portfolio/17SC014-stmonica-render23.jpg'
+
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Our Blog
+blog-description: Please follow along as we embark on this journey to create the St. Monica Naturescape!
+
+
+#####################################
+############### Team ################
+#####################################
+team-title: Meet Our Team
+team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+#
+# Team Members
+#
+team:
+
+# Team Member
+- name: Jack Skilton
+  tagline: Graphic Designer
+  avatar: avatar-01.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: James Young
+  tagline: Developer
+  avatar: avatar-02.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Johnatan Doe
+  tagline: Hacker
+  avatar: avatar-04.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Ecaterina Doe
+  tagline: Support Expert
+  avatar: avatar-03.jpg
+
+  # Social Links
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-title: Sponsor
+pricing-description: >
+  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.  
+  Please consider investing in the redevelopment of this space which will benefit all students at St. Monica,
+  the St. Monica YMCA Child Care Centre as well as the community at large.
+
+# Plan Bronze
+#
+plan-bronze-price: $2000
+plan-bronze-offer-1-title: Recognition
+plan-bronze-offer-1-info: Recognition on commemorative playground feature with clear acknowledgement of sponsorship.
+plan-bronze-offer-2-title: Invitation
+plan-bronze-offer-2-info: Invitation to and written recognition at the Grand Opening.
+plan-bronze-offer-3-title: Acknowledgement
+plan-bronze-offer-3-info: Acknowledgement on the Naturescape website.
+plan-bronze-url: '/sponsorships'
+
+#
+# Plan Silver
+#
+plan-silver-price: $5000
+plan-silver-offer-1-title: Recognition
+plan-silver-offer-1-info: Recognition on commemorative playground feature with clear acknowledgement of sponsorship.
+plan-silver-offer-2-title: Invitation
+plan-silver-offer-2-info: Invitation to and written recognition at the Grand Opening.
+plan-silver-offer-3-title: Acknowledgement
+plan-silver-offer-3-info: Acknowledgement on the Naturescape website and link to company website.
+plan-silver-url: '/sponsorships'
+
+#
+# Plan Gold
+#
+plan-gold-price: $10,000
+plan-gold-offer-1-title: Recognition
+plan-gold-offer-1-info: Recognition on commemorative playground feature with clear acknowledgement of sponsorship.
+plan-gold-offer-2-title: Invitation
+plan-gold-offer-2-info: Invitation to and verbal recognition at the Grand Opening.
+plan-gold-offer-3-title: Acknowledgement
+plan-gold-offer-3-info: Acknowledgement with small logo on the Naturescape website and link to company website.
+plan-gold-offer-4-title: Signage &amp; Table
+plan-gold-offer-4-info: Opportunity to have corporate signage and promotional information table at Grand Opening.
+plan-gold-url: '/sponsorships'
+
+#
+# Plan Platnum
+#
+plan-platnum-price: $20,000
+plan-platnum-offer-1-title: Premium Recognition
+plan-platnum-offer-1-info: Premium Recognition on commemorative playground feature with clear acknowledgement of sponsorship.
+plan-platnum-offer-2-title: Invitation
+plan-platnum-offer-2-info: Invitation to and verbal recognition at the Grand Opening.
+plan-platnum-offer-3-title: Acknowledgement
+plan-platnum-offer-3-info: Acknowledgement with large logo on the Naturescape website and link to company website.
+plan-platnum-offer-4-title: Signage &amp; Table
+plan-platnum-offer-4-info: Opportunity to have corporate signage and promotional information table at Grand Opening.
+plan-platnum-offer-5-title: Ribbon Cutting
+plan-platnum-offer-5-info: Participation in the ribbon cutting ceramony at the Grand Opening.
+plan-platnum-url: '/sponsorships'
+
+pricing-friends-families-title: Donate
+pricing-friends-families-description: >
+  The St. Monica Naturescape Project depends on the generosity of friend and family like you.  
+  Your donation benefits all students at St. Monica, the St. Monica YMCA Child Care Centre as well
+  as the community at large.
+
+pricing-corporate-title: Sponsor
+pricing-corporate-description: >
+  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.  
+  Please consider investing in the redevelopment of this space which will benefit all students at St. Monica,
+  the St. Monica YMCA Child Care Centre as well as the community at large.
+
+
+pricing-title: Sponsor
+pricing-description: >
+  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.  
+  Please consider investing in the redevelopment of this space which will benefit all students at St. Monica,
+  the St. Monica YMCA Child Care Centre as well as the community at large.
+
+# Plan Basic
+#
+plan-basic-price: $25
+plan-basic-offer-2-title: Invitation
+plan-basic-offer-2-info: Invitation to attend the Naturescape Grand Opening.
+plan-basic-offer-1-title: Tax Receipt
+plan-basic-offer-1-info: Online donations will receive tax receipt issued by ECSD.
+plan-basic-url: '/donations'
+
+#
+# Plan Silver
+#
+plan-friends-price: $250
+plan-friends-offer-3-title: Formal Recognition
+plan-friends-offer-3-info: Recognition on commemorative playground feature.
+plan-friends-offer-2-title: Invitation
+plan-friends-offer-2-info: Invitation to attend the Naturescape Grand Opening.
+plan-friends-offer-1-title: Tax Receipt
+plan-friends-offer-1-info: Online donations will receive tax receipt issued by ECSD.
+plan-friends-url: '/donations'
+
+#
+# Plan Gold
+#
+plan-builder-price: $1000
+plan-builder-offer-4-title: Event Signage
+plan-builder-offer-4-info: Recognition signage at the Naturescape Grand Opening.
+plan-builder-offer-3-title: Formal Recognition
+plan-builder-offer-3-info: Recognition on commemorative playground feature.
+plan-builder-offer-2-title: Invitation
+plan-builder-offer-2-info: Invitation to attend the Naturescape Grand Opening.
+plan-builder-offer-1-title: Tax Receipt
+plan-builder-offer-1-info: Online donations will receive tax receipt issued by ECSD.
+plan-builder-url: '/donations'
+
+
+#####################################
+##########   Contribute   ###########
+#####################################
+contribute-title: Contribute
+contribute-description: >
+  <p>There are many ways that you can help us get this amazing Naturescape built this spring.</p>
+  <p>We are looking for:</p>
+  <ul class="instructions">
+    <li>Help identifying and applying for grants or other funding opportunities</li>
+    <li>Help deciding what the "Donor Recognition Feature” will be to thank our supporters</li>
+    <li>Help finding a talented and experienced local landscape company that can cooperatively work along with our Design team from  Bienenstock Design and Consulting to install the Naturescape.</li>
+    <li>Discounts and donations of materials that can be used in the Naturescape</li>
+    <li>And so much more!</li>
+  </ul>
+  <br><br>
+  <p>What gifts and talents can you contribute?</p>
+  <p>Please e-mail us at <a href="mailto:stmonicanaturescape@gmail.com">stmonicanaturescape@gmail.com</a> to get involved.</p>
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: >
+  Thank you for your contribution. Your generous heart and community spirit is bringing us one step
+  closer to being able start construction this spring.
+footer-copyright-text: St. Monica School Council;
+footer-copyright-url: http://stmonicanaturscape.com
+footer-copyright-year: 2017
