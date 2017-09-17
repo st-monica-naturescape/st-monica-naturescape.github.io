@@ -41,7 +41,7 @@ permalink: /donations/
 <p style="text-align: center;">
 <b>†&nbsp;Donations made online or by cheque of $25 or more will be eligible for an official donation receipt from <br>
 the Edmonton Catholic School District. To ensure you receive a receipt please complete the
-<a href="">donation form</a>.</b>
+<a href="/images/donate.pdf">donation form</a>.</b>
 </p>
 <br>
 <br>
@@ -71,7 +71,7 @@ Your cooperation using this method of payment is greatly appreciated.
 You can add to cart as many donation values as you care to contribute.
 
 Please note that in order for a donation receipt to be issued and recognition to be provided, the
-<a href="">following form</a> will need to accompany your donation. If you are sending the form to school with a
+<a href="/images/donate.pdf">following form</a> will need to accompany your donation. If you are sending the form to school with a
 student, please ensure that the envelope is clearly marked “Naturescape". Thank you!
 
 Donation receipts will be issued by ECSD once per calendar year, likely in February.
@@ -82,8 +82,8 @@ Donation receipts will be issued by ECSD once per calendar year, likely in Febru
 
 If you do not have a child attending St. Monica but would like to donate to our project, we would be happy to
 accept a cheque made payable to “St. Monica School”. Please note that in order for a donation receipt to be
-issued and recognition to be provided, the <a href="">following form</a> will need to accompany your donation.
-If you are sending a donation to school with a student, please ensure that the envelope is clearly
-marked “Naturescape". Thank you!
+issued and recognition to be provided, the <a href="/images/donate.pdf">following form</a> will need to
+accompany your donation. If you are sending a donation to school with a student, please ensure that the
+envelope is clearly marked “Naturescape". Thank you!
 
 Donation receipts will be issued by ECSD once per calendar year, likely in February.

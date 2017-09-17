@@ -55,5 +55,8 @@ permalink: /sponsorships/
 <hr class="normal">
 <br>
 <br>
-If you are interested in becoming a corporate sponsor, please complete the following form and submit it with your **cheque made payable to “St. Monica Fundraising Association”**. If you have questions or would like more information, please feel free to e-mail us at [stmonicanaturescape@gmail.com](mailto:stmonicanaturescape@gmail.com)
+If you are interested in becoming a corporate sponsor, please complete the following
+<a href="/images/sponsor.pdf">form</a> and submit it with your **cheque made payable to
+“St. Monica Fundraising Association”**. If you have questions or would like more information,
+please feel free to e-mail us at [stmonicanaturescape@gmail.com](mailto:stmonicanaturescape@gmail.com)
 
