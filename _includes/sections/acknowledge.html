@@ -1,0 +1,38 @@
+<!-- About Section -->
+<section class="site-section about-section next-section-indicator" id="about">
+    <div class="container">
+  
+      <!-- Section Heading -->
+      <div class="row text-center">
+
+        <!-- Section Header -->
+        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+          <h2>{{ site.acknowledge-title }}</h2>
+          <hr class="normal">
+        </header>
+  
+        <!-- Section Content -->
+        <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+          <p>{{ site.acknowledge-description }}</p>
+        </div>
+  
+      </div>
+    <div class="row text-center">
+
+        <!-- Section Header -->
+        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+          <br><br>
+          <h3>Silver Level:</h3>
+          <br>
+        </header>
+
+        <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+          {% for item in site.acknowledge-silver %}
+            <div class="item-content">
+              <h4><a href="{{ item.url }}">{{ item.name }}</a></h4>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>

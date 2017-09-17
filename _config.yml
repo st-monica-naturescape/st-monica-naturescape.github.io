@@ -148,6 +148,19 @@ features:
     This space has been designed to accommodate wheelchairs and walkers and for every child regardless of physical,  cognitive or mental ability.
   icon: pe-7s-way
 
+
+
+#####################################
+############  Portfolio  ############
+#####################################
+acknowledge-title: Acknowledgements
+acknowledge-description: >
+  The St. Monica Naturescape project would like to thank the following Sponsors for their contributions.
+
+acknowledge-silver:
+- name: Riverbend Community League
+  url: "http://riverbendonline.ca"
+
 #####################################
 ############  Portfolio  ############
 #####################################
