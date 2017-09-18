@@ -39,7 +39,7 @@ permalink: /donations/
 <br>
 
 <p style="text-align: center;">
-<b>†&nbsp;Donations made online or by cheque of $25 or more will be eligible for an official donation receipt from <br>
+<b>†&nbsp;Donations of $25 or more will be eligible for an official donation receipt from <br>
 the Edmonton Catholic School District. To ensure you receive a receipt please complete the
 <a href="/images/donate.pdf">donation form</a>.</b>
 </p>

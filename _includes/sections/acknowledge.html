@@ -33,6 +33,21 @@
             </div>
           {% endfor %}
         </div>
+        
+        <!-- Section Header -->
+        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+          <br><br>
+          <h3>Grants:</h3>
+          <br>
+        </header>
+
+        <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+          {% for item in site.acknowledge-grant %}
+            <div class="item-content">
+              <h4><a href="{{ item.url }}">{{ item.description }}</a><br/>from {{ item.name}}</h4>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>

@@ -161,6 +161,11 @@ acknowledge-silver:
 - name: Riverbend Community League
   url: "http://riverbendonline.ca"
 
+acknowledge-grant:
+- name: Alberta Culture and Tourism
+  description: Community Facility Enhancement Program Grant ($70,000) 
+  url: "https://www.culturetourism.alberta.ca/community/community-grants/community-facility-enhancement-program/"
+
 #####################################
 ############  Portfolio  ############
 #####################################
@@ -171,6 +176,7 @@ portfolio-description: >
   climbers, boulders, horizontal log and stump borders and varying topography. Gardening, music, sensory bins and
   varying textures are all incorporated to develop fine motor skills that are valuable to child development.
   This space will encourage children to touch, feel, and collect creating sensory experiences they won't forget.
+  <br><br>Images courtesy of <a href="http://www.naturalplaygrounds.ca">Bienenstock Design &amp; Consulting</a>.
 #
 # Portfolio Grid
 #
@@ -404,7 +410,7 @@ plan-bronze-offer-1-info: Recognition on commemorative playground feature with c
 plan-bronze-offer-2-title: Invitation
 plan-bronze-offer-2-info: Invitation to and written recognition at the Grand Opening.
 plan-bronze-offer-3-title: Acknowledgement
-plan-bronze-offer-3-info: Acknowledgement on the Naturescape website.
+plan-bronze-offer-3-info: Acknowledgement on the Naturescape website and link to company website.
 plan-bronze-url: '/sponsorships'
 
 #
@@ -416,7 +422,7 @@ plan-silver-offer-1-info: Recognition on commemorative playground feature with c
 plan-silver-offer-2-title: Invitation
 plan-silver-offer-2-info: Invitation to and written recognition at the Grand Opening.
 plan-silver-offer-3-title: Acknowledgement
-plan-silver-offer-3-info: Acknowledgement on the Naturescape website and link to company website.
+plan-silver-offer-3-info: Acknowledgement with small logo on the Naturescape website and link to company website.
 plan-silver-url: '/sponsorships'
 
 #
@@ -428,7 +434,7 @@ plan-gold-offer-1-info: Recognition on commemorative playground feature with cle
 plan-gold-offer-2-title: Invitation
 plan-gold-offer-2-info: Invitation to and verbal recognition at the Grand Opening.
 plan-gold-offer-3-title: Acknowledgement
-plan-gold-offer-3-info: Acknowledgement with small logo on the Naturescape website and link to company website.
+plan-gold-offer-3-info: Acknowledgement with medium logo on the Naturescape website and link to company website.
 plan-gold-offer-4-title: Signage &amp; Table
 plan-gold-offer-4-info: Opportunity to have corporate signage and promotional information table at Grand Opening.
 plan-gold-url: '/sponsorships'
@@ -514,7 +520,7 @@ contribute-description: >
   <ul class="instructions">
     <li>Help identifying and applying for grants or other funding opportunities</li>
     <li>Help deciding what the "Donor Recognition Feature” will be to thank our supporters</li>
-    <li>Help finding a talented and experienced local landscape company that can cooperatively work along with our Design team from  Bienenstock Design and Consulting to install the Naturescape.</li>
+    <li>Help finding a talented and experienced local landscape company that can cooperatively work alongside our Design team from  <a href="http://www.naturalplaygrounds.ca">Bienenstock Design &amp; Consulting</a> to install the Naturescape.</li>
     <li>Discounts and donations of materials that can be used in the Naturescape</li>
     <li>And so much more!</li>
   </ul>
@@ -527,7 +533,7 @@ contribute-description: >
 #####################################
 footer-description: >
   Thank you for your contribution. Your generous heart and community spirit is bringing us one step
-  closer to being able start construction this spring.
+  closer to being able to start construction this spring.
 footer-copyright-text: St. Monica School Council;
 footer-copyright-url: http://stmonicanaturscape.com
 footer-copyright-year: 2017

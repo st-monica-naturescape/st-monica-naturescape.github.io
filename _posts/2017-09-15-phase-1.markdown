@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Phase 1 Complete"
-date:   2017-09-14 19:00:00 -0600
+date:   2017-09-15 19:00:00 -0600
 categories: naturescape update
 ---
 
