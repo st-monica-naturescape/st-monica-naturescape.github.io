@@ -509,7 +509,6 @@ plan-builder-offer-1-title: Tax Receipt
 plan-builder-offer-1-info: Online donations will receive tax receipt issued by ECSD.
 plan-builder-url: '/donations'
 
-
 #####################################
 ##########   Contribute   ###########
 #####################################
@@ -536,6 +535,6 @@ footer-description: >
   closer to being able to start construction this spring.
   <br><br>
   Brought to you by the St. Monica School Council and St. Monica Catholic School Fundraising Association.
-footer-copyright-text: St. Monica School Council;
+footer-copyright-text: St. Monica School Council
 footer-copyright-url: http://stmonicanaturscape.com
 footer-copyright-year: 2017
