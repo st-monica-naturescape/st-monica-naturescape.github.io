@@ -2,7 +2,7 @@
 layout: post
 title:  "Naturescape Concept Flyover"
 date:   2017-09-20 11:30:00 -0600
-categories: naturescape update flyover
+categories: naturescape
 ---
 
 [Bienenstock Design & Consulting](http://www.naturalplaygrounds.ca/portfolio) has provided us with
