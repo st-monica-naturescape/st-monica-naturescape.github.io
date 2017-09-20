@@ -9,4 +9,3 @@ categories: naturescape
 a rendering of a flyover of the concept design that we are excited to share with you.
 
 <iframe width="768" height="432" src="https://www.youtube-nocookie.com/embed/4kPVAX5a-JE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
