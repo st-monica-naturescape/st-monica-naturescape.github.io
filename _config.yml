@@ -120,7 +120,7 @@ about-description: >
 #####################################
 features-title: Features
 features-description: >
-  The staff at St. Monica believes passionately that learning should be an adventure.  They use the
+  The staff at St. Monica believes passionately that learning should be an adventure. They use the
   Reggio Emilia approach to early childhood education, which encourages young children and their teachers
   to explore, question, and discover in a stimulating environment. Birds nesting in the trees, ladybugs in
   the plants, and leaves overhead allow for endless teaching opportunities in this outdoor classroom.
@@ -161,10 +161,23 @@ acknowledge-silver:
 - name: Riverbend Community League
   url: "http://riverbendonline.ca"
 
+acknowledge-community-builder:
+- name: Madsen Family
+  amount: $1000
+
+acknowledge-friends-and-family:
+- name: Raedschelders-Van Manen Family
+  amount: $250
+- name: Kundert Family
+  amount: $250
+
 acknowledge-grant:
 - name: Alberta Culture and Tourism
-  description: Community Facility Enhancement Program Grant ($70,000) 
+  description: Community Facility Enhancement Program Grant ($70,000)
   url: "https://www.culturetourism.alberta.ca/community/community-grants/community-facility-enhancement-program/"
+- name: Edmonton Catholic Schools Foundation
+  description: Champion Projects Grant ($2,300)
+  url: "https://www.ecsfoundation.ca/champion-projects.html"
 
 #####################################
 ############  Portfolio  ############
@@ -398,7 +411,7 @@ team:
 #####################################
 pricing-title: Sponsor
 pricing-description: >
-  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.  
+  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.
   Please consider investing in the redevelopment of this space which will benefit all students at St. Monica,
   the St. Monica YMCA Child Care Centre as well as the community at large.
 
@@ -457,20 +470,20 @@ plan-platnum-url: '/sponsorships'
 
 pricing-friends-families-title: Donate
 pricing-friends-families-description: >
-  The St. Monica Naturescape Project depends on the generosity of friend and family like you.  
+  The St. Monica Naturescape Project depends on the generosity of friend and family like you.
   Your donation benefits all students at St. Monica, the St. Monica YMCA Child Care Centre as well
   as the community at large.
 
 pricing-corporate-title: Sponsor
 pricing-corporate-description: >
-  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.  
+  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.
   Please consider investing in the redevelopment of this space which will benefit all students at St. Monica,
   the St. Monica YMCA Child Care Centre as well as the community at large.
 
 
 pricing-title: Sponsor
 pricing-description: >
-  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.  
+  The St. Monica Naturescape Project depends on the generosity of corporate and community partners like you.
   Please consider investing in the redevelopment of this space which will benefit all students at St. Monica,
   the St. Monica YMCA Child Care Centre as well as the community at large.
 
@@ -518,14 +531,14 @@ contribute-description: >
   <p>We are looking for:</p>
   <ul class="instructions">
     <li>Help identifying and applying for grants or other funding opportunities</li>
-    <li>Help deciding what the "Donor Recognition Feature” will be to thank our supporters</li>
+    <li>Help deciding what the "Donor Recognition Feature" will be to thank our supporters</li>
     <li>Help finding a talented and experienced local landscape company that can cooperatively work alongside our Design team from  <a href="http://www.naturalplaygrounds.ca">Bienenstock Design &amp; Consulting</a> to install the Naturescape.</li>
     <li>Discounts and donations of materials that can be used in the Naturescape</li>
     <li>And so much more!</li>
   </ul>
   <br><br>
   <p>What gifts and talents can you contribute?</p>
-  <p>Please e-mail us at <a href="mailto:stmonicanaturescape@gmail.com">stmonicanaturescape@gmail.com</a> to get involved.</p>
+  <p>Please e-mail us at <a href="mailto:stmonicanaturescape@gmail.com">stmonicanaturescape@gmail.com</a> to get involved.</p>
 
 #####################################
 #############   Footer   ############
