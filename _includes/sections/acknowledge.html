@@ -1,84 +1,102 @@
 <!-- About Section -->
 <section class="site-section about-section next-section-indicator" id="about">
-    <div class="container">
-  
-      <!-- Section Heading -->
-      <div class="row text-center">
-
-        <!-- Section Header -->
-        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <h2>{{ site.acknowledge-title }}</h2>
-          <hr class="normal">
-        </header>
-  
-        <!-- Section Content -->
-        <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-          <p>{{ site.acknowledge-description }}</p>
-        </div>
-  
-      </div>
+  <div class="container">
+    <!-- Section Heading -->
     <div class="row text-center">
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.acknowledge-title }}</h2>
+        <hr class="normal" />
+      </header>
 
-        <!-- Section Header -->
-        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <br><br>
-          <h3>Silver Level:</h3>
-          <br>
-        </header>
-
-        <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          {% for item in site.acknowledge-silver %}
-            <div class="item-content ack-item">
-              <h4><a href="{{ item.url }}">{{ item.name }}</a></h4>
-            </div>
-          {% endfor %}
-        </div>
-
-        <!-- Section Header -->
-        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <br><br>
-          <h3>Community Builder:</h3>
-          <br>
-        </header>
-
-        <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          {% for item in site.acknowledge-community-builder %}
-            <div class="item-content ack-item">
-              <h4>{{ item.name }}</h4>
-            </div>
-          {% endfor %}
-        </div>
-
-        <!-- Section Header -->
-        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <br><br>
-          <h3>Friend &amp; Family:</h3>
-          <br>
-        </header>
-
-        <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          {% for item in site.acknowledge-friends-and-family %}
-            <div class="item-content ack-item">
-              <h4>{{ item.name }}</h4>
-            </div>
-          {% endfor %}
-        </div>
-
-        <!-- Section Header -->
-        <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <br><br>
-          <h3>Grants:</h3>
-          <br>
-        </header>
-
-        <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          {% for item in site.acknowledge-grant %}
-            <div class="item-content ack-item">
-              <h4><a href="{{ item.url }}">{{ item.description }}</a><br/>from {{ item.name}}</h4>
-              <br/>
-            </div>
-          {% endfor %}
-        </div>
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.acknowledge-description }}</p>
       </div>
     </div>
-  </section>
+
+    <div class="row text-center">
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <br /><br />
+        <h3>Grants:</h3>
+        <br />
+      </header>
+
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        {% for item in site.acknowledge-grant %}
+        <div class="item-content ack-item">
+          <h4>
+            <a href="{{ item.url }}">{{ item.description }}</a><br />from {{ item.name }}
+          </h4>
+          <br />
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <br /><br />
+        <h3>Gold Level:</h3>
+        <br />
+      </header>
+
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        {% for item in site.acknowledge-gold %}
+        <div class="item-content ack-item">
+          <h4>
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          </h4>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <br /><br />
+        <h3>Silver Level:</h3>
+        <br />
+      </header>
+
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        {% for item in site.acknowledge-silver %}
+        <div class="item-content ack-item">
+          <h4>
+            <a href="{{ item.url }}">{{ item.name }}</a>
+          </h4>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <br /><br />
+        <h3>Community Builder:</h3>
+        <br />
+      </header>
+
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        {% for item in site.acknowledge-community-builder %}
+        <div class="item-content ack-item">
+          <h4>{{ item.name }}</h4>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <br /><br />
+        <h3>Friend &amp; Family:</h3>
+        <br />
+      </header>
+
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        {% for item in site.acknowledge-friends-and-family %}
+        <div class="item-content ack-item">
+          <h4>{{ item.name }}</h4>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

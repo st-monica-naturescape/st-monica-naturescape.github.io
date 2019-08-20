@@ -155,7 +155,11 @@ features:
 #####################################
 acknowledge-title: Acknowledgements
 acknowledge-description: >
-  The St. Monica Naturescape project would like to thank the following Sponsors for their contributions.
+  The St. Monica Naturescape project would like to thank the following contributors:
+
+acknowledge-gold:
+- name: Rockyview Projects
+  url: "https://www.rockyviewprojects.com"
 
 acknowledge-silver:
 - name: Riverbend Community League
@@ -174,7 +178,16 @@ acknowledge-friends-and-family:
 acknowledge-grant:
 - name: Alberta Culture and Tourism
   description: Community Facility Enhancement Program Grant ($70,000)
-  url: "https://www.culturetourism.alberta.ca/community/community-grants/community-facility-enhancement-program/"
+  url: "https://www.alberta.ca/community-facility-enhancement-program.aspx"
+- name: Alberta Culture and Tourism
+  description: Community Facility Enhancement Program Grant ($115,738)
+  url: "https://www.alberta.ca/community-facility-enhancement-program.aspx"
+- name: TD Friends of the Environment Foundation
+  description: TD Friends of the Environment Foundation Grant ($40,000)
+  url: "https://www.td.com/ca/en/about-td/ready-commitment/vibrant-planet/fef/"
+- name: Tree Canada
+  description: Greening Canada School Grounds ($3,000)
+  url: "https://treecanada.ca"
 - name: Edmonton Catholic Schools Foundation
   description: Champion Projects Grant ($2,300)
   url: "https://www.ecsfoundation.ca/champion-projects.html"
